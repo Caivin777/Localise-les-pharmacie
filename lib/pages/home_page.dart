@@ -209,7 +209,7 @@ out skel qt;
 
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(
-              content: Text('✅ ${pharmacies.length} pharmacie(s) trouvée(s)'),
+              content: Text(' ${pharmacies.length} pharmacie(s) trouvée(s)'),
               duration: const Duration(seconds: 2),
               backgroundColor: Colors.green,
               behavior: SnackBarBehavior.floating,
